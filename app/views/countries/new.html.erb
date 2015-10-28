@@ -1,0 +1,26 @@
+<%= form_for @country do |f| %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :flag %>
+  <%= f.text_field :flag %>
+  <br>
+  <%= f.label :size %>
+  <%= f.number_field :size %>
+  <br>
+  <%= f.label :currency %>
+  <%= f.text_field :currency %>
+  <br>
+  <%= f.label :population %>
+  <%= f.number_field :population %>
+  <br>
+  <%= f.label :language %>
+  <%= f.text_field :language %>
+  <br>
+  <%= f.label :happiness_rank %>
+  <%= f.number_field :happiness_rank %>
+  <br>
+  <%= f.submit 'Country time' %>
+
+<% end %>

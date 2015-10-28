@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  flag: 
+  size: 1
+  currency: MyString
+  population: 1
+  lanugage: MyString
+  happiness_rank: 1
+
+two:
+  name: MyString
+  flag: 
+  size: 1
+  currency: MyString
+  population: 1
+  lanugage: MyString
+  happiness_rank: 1
