@@ -1,4 +1,8 @@
 <h1><%= @country.name %> </h1>
 <p>The population is <%= @country.population %></p>
 <p>The country's landmass is equal to <%= @country.size %> sq miles</p>
+The following cities have been added to the database: 
+<% @country.cities.each do |city, id| %>
+<%= link_to "#{city.name}", city_path(:id) %>
+<% end %>
 <p></p>
